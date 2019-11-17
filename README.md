@@ -3,7 +3,7 @@
 Flow of project :-
 
 ## Extract image features
-Will be using inception v3 model images and captions as data
+Will be using inception v3 model to form image embeddings which will be fed into RNN for predictions.
 
 ## Data preprocessing - Captions and images
 1. Generate a Vocabulary - Vocabulary is list of all the words with occurances >= n (some number) and every word is given a number.
